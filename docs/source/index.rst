@@ -1,5 +1,7 @@
-EHR-QC: A streamlined pipeline for automated electronic health records standardisation and preprocessing to predict clinical outcomes
-=====================================================================================================================================
+EHR-QC
+======
+
+*A streamlined pipeline for automated electronic health records (EHR) standardisation and preprocessing to predict clinical outcomes*
 
 Instructors
 -----------
