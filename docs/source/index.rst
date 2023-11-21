@@ -1,17 +1,43 @@
-Welcome to Lumache's documentation!
-===================================
+EHR-QC: A streamlined pipeline for automated electronic health records standardisation and preprocessing to predict clinical outcomes
+=====================================================================================================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Instructors
+-----------
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+1. Associate Professor Sonika Tyagi
+2. Mr. Yashpal Ramakrishnaiah
 
-.. note::
+Learning Objectives
+-------------------
 
-   This project is under active development.
+1. Presenting EHR-QC
+2. Identifying challenges in applying EHR in a research setting
+3. Becoming familiar with the command line interface of EHR-QC
+4. Employing EHR-QC for standardizing schemas
+5. Creating mappings for standard vocabulary concepts with EHR-QC
+6. Conducting data exploration and pre-processing through EHR-QC
+7. Gaining perspectives on producing machine-learning-ready data
+
+Prerequisite
+------------
+
+1. Python 3.8 or above
+2. Postgres DB (required only for data standardisation, but not for preprocessing)
+3. Docker (optional)
+4. Access to any EHR data in csv formar
+
+Time-table
+----------
+
+1. 11:00 AM to 11:15 AM - Lecture
+2. 11:15 AM to 11:40 AM - Live Demo
+3. 11:40 AM to 11:45 AM - Q&A
+
+Cite
+----
+
+Acknowledgements
+----------------
 
 Contents
 --------
