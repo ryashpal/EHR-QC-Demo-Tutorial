@@ -64,3 +64,7 @@ Timetable
    .. image:: images/superbugai.png
       :width: 20 %
 
+
+.. toctree::
+ :maxdepth: 2
+   api
