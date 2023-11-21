@@ -37,9 +37,7 @@ Time-table
 
 .. topic:: Cite
 
-   .. code-block::
-
-      ``Ramakrishnaiah, Y. et al. (2023) ‘EHR-QC: A streamlined pipeline for Automated Electronic Health Records standardisation and preprocessing to predict clinical outcomes’, Journal of Biomedical Informatics, 147, p. 104509. doi:10.1016/j.jbi.2023.104509.``
+   *Ramakrishnaiah, Y. et al. (2023) ‘EHR-QC: A streamlined pipeline for Automated Electronic Health Records standardisation and preprocessing to predict clinical outcomes’, Journal of Biomedical Informatics, 147, p. 104509. doi:10.1016/j.jbi.2023.104509.*
 
 .. topic:: Acknowledgements
 
@@ -52,10 +50,3 @@ Time-table
    .. image:: images/superbugai.png
       :width: 20 %
 
-Contents
---------
-
-.. toctree::
-
-   usage
-   api
