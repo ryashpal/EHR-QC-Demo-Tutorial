@@ -15,7 +15,7 @@ Learning Objectives
 #. Presenting EHR-QC
 #. Identifying challenges in applying EHR in a research setting
 #. Becoming familiar with the command line interface of EHR-QC
-#. Employing EHR-QC for standardizing schemas
+#. Employing EHR-QC for standardising schemas
 #. Creating mappings for standard vocabulary concepts with EHR-QC
 #. Conducting data exploration and pre-processing through EHR-QC
 #. Gaining perspectives on producing machine-learning-ready data
@@ -26,7 +26,7 @@ Prerequisite
 #. Python 3.8 or above
 #. Postgres DB (required only for data standardisation, but not for preprocessing)
 #. Docker (optional)
-#. Access to any EHR data in csv formar
+#. Access to any EHR data in csv format
 
 
 Timetable
