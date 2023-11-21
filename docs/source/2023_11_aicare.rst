@@ -99,7 +99,7 @@ This tutorial contains the commands for standardising and pre-processing electro
    python -m ehrqc.plot.OutlierIsolationForest $EHR_QC_DEMO_BASE/2023_11_aicare/data/imputed/labs_avg_episode_date.csv $EHR_QC_DEMO_BASE/2023_11_aicare/data/cleaned/labs_avg_episode_date.csv clean -c 'Sodium level' 'Blood urea nitrogen' 'Creatinine level' 'Potassium level' 'Chloride' 'Hematocrit' 'Haemoglobin estimation' 'Platelet count' 'Red blood cell count' 'Calcium level' 'MCV - Mean corpuscular volume' 'MCHC - Mean corpuscular haemoglobin concentration' 'Albumin' 'MCH - Mean corpuscular haemoglobin' 'Serum alkaline phosphatase level' 'Aspartate aminotransferase measurement' 'Alanine aminotransferase' 'Total bilirubin level' 'White blood cell count' 'Red blood cell distribution width' 'Total protein measurement' 'Glucose level' 'Bicarbonate level' 'Anion gap' 'Lymph' 'Infectious mononucleosis test'
 
 #. Pre-processing Report
-========================
+------------------------
 
 .. code-block:: console
 
