@@ -31,12 +31,14 @@ Prerequisite
 Time-table
 ----------
 
-1. 11:00 AM to 11:15 AM - Lecture
-2. 11:15 AM to 11:40 AM - Live Demo
-3. 11:40 AM to 11:45 AM - Q&A
+1. 23 Nov 2023 11:00 AM to 11:15 AM - Lecture
+2. 23 Nov 2023 11:15 AM to 11:40 AM - Live Demo
+3. 23 Nov 2023 11:40 AM to 11:45 AM - Q&A
 
 Cite
 ----
+
+``Ramakrishnaiah, Y. et al. (2023) ‘EHR-QC: A streamlined pipeline for Automated Electronic Health Records standardisation and preprocessing to predict clinical outcomes’, Journal of Biomedical Informatics, 147, p. 104509. doi:10.1016/j.jbi.2023.104509.``
 
 Acknowledgements
 ----------------
