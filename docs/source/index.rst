@@ -12,28 +12,39 @@ Instructors
 Learning Objectives
 -------------------
 
-1. Presenting EHR-QC
-2. Identifying challenges in applying EHR in a research setting
-3. Becoming familiar with the command line interface of EHR-QC
-4. Employing EHR-QC for standardizing schemas
-5. Creating mappings for standard vocabulary concepts with EHR-QC
-6. Conducting data exploration and pre-processing through EHR-QC
-7. Gaining perspectives on producing machine-learning-ready data
+#. Presenting EHR-QC
+#. Identifying challenges in applying EHR in a research setting
+#. Becoming familiar with the command line interface of EHR-QC
+#. Employing EHR-QC for standardizing schemas
+#. Creating mappings for standard vocabulary concepts with EHR-QC
+#. Conducting data exploration and pre-processing through EHR-QC
+#. Gaining perspectives on producing machine-learning-ready data
 
 Prerequisite
 ------------
 
-1. Python 3.8 or above
-2. Postgres DB (required only for data standardisation, but not for preprocessing)
-3. Docker (optional)
-4. Access to any EHR data in csv formar
+#. Python 3.8 or above
+#. Postgres DB (required only for data standardisation, but not for preprocessing)
+#. Docker (optional)
+#. Access to any EHR data in csv formar
 
-Time-table
-----------
 
-1. 23 Nov 2023 11:00 AM to 11:15 AM - Lecture
-2. 23 Nov 2023 11:15 AM to 11:40 AM - Live Demo
-3. 23 Nov 2023 11:40 AM to 11:45 AM - Q&A
+.. list-table:: Timetable
+   :widths: 10 25 65
+   :header-rows: 1
+
+   * - Sl No
+     - Timings
+     - Activity
+   * - 1
+     - 23 Nov 2023 11:00 AM to 11:15 AM
+     - Lecture
+   * - 2
+     - 23 Nov 2023 11:15 AM to 11:40 AM
+     - Live Demo
+   * - 3
+     - 23 Nov 2023 11:40 AM to 11:45 AM
+     - Q&A
 
 .. topic:: Cite
 
