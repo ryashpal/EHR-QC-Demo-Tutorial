@@ -65,6 +65,10 @@ Timetable
       :width: 20 %
 
 
+Contents
+--------
+
 .. toctree::
+ :maxdepth: 1
 
    api
