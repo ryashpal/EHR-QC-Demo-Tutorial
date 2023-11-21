@@ -6,8 +6,8 @@ EHR-QC
 Instructors
 -----------
 
-1. Associate Professor Sonika Tyagi
-2. Mr. Yashpal Ramakrishnaiah
+#. Associate Professor Sonika Tyagi
+#. Mr. Yashpal Ramakrishnaiah
 
 Learning Objectives
 -------------------
