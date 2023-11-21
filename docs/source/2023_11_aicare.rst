@@ -3,7 +3,7 @@ AI.Care
 
 This tutorial contains the commands for standardising and pre-processing electronic health record (EHR) data using EHR-QC.
 
-#. Environment set-up for Standardisation
+01. Environment set-up for Standardisation
 -----------------------------------------
 
 .. code-block:: console
@@ -12,49 +12,49 @@ This tutorial contains the commands for standardising and pre-processing electro
    cd ../EHR-QC-Standardise/
    source .venv/bin/activate
 
-#. Import Standard Vocabulary
+02. Import Standard Vocabulary
 -----------------------------
 
 .. code-block:: console
 
    python -m ehrqc.standardise.Run -l
 
-#. Import EHR
+03. Import EHR
 -------------
 
 .. code-block:: console
 
    python -m ehrqc.standardise.Run -f
 
-#. Stage EHR
+04. Stage EHR
 ------------
 
 .. code-block:: console
 
    python -m ehrqc.standardise.Run -s
 
-#. Perform Concept Mapping
+05. Perform Concept Mapping
 --------------------------
 
 .. code-block:: console
 
    python -m ehrqc.standardise.MapConcepts "Measurement" "SNOMED" "Observable Entity" "$EHR_QC_DEMO_BASE/2023_11_aicare/data/concepts/concepts_raw.csv" "CONCEPT" "$EHR_QC_DEMO_BASE/2023_11_aicare/data/concepts/concepts_to_review.csv" --model_pack_path="$EHR_QC_DEMO_BASE/2023_11_aicare/data/medcat/mc_modelpack_snomed_int_16_mar_2022_25be3857ba34bdd5.zip"
 
-#. Import Mapped Concepts
+06. Import Mapped Concepts
 -------------------------
 
 .. code-block:: console
 
    python -m ehrqc.standardise.Run -c
 
-#. Perform ETL
+07. Perform ETL
 --------------
 
 .. code-block:: console
 
    python -m ehrqc.standardise.Run -e
 
-#. Environment set-up for Preprocessing
+08. Environment set-up for Preprocessing
 ---------------------------------------
 
 .. code-block:: console
@@ -63,42 +63,42 @@ This tutorial contains the commands for standardising and pre-processing electro
    cd ../EHR-QC-Preprocess/
    source .venv/bin/activate
 
-#. Coverage Analysis
+09. Coverage Analysis
 --------------------
 
 .. code-block:: console
 
    psql -h localhost -p 5434 -U postgres -d mimic4 -c "select con.concept_name, con.concept_code, (count(distinct mmt.person_id)::float * 100)/989 as person_level_coverage, (count(distinct mmt.visit_occurrence_id)::float * 100)/1000 as episode_level_coverage from eicu_etl_20231121.cdm_measurement mmt inner join eicu_etl_20231121.concept con on con.concept_code = mmt.measurement_concept_id where mmt.unit_id = 'labevents' group by con.concept_name, con.concept_code order by person_level_coverage desc;"
 
-#. Extract data
+10. Extract data
 ---------------
 
 .. code-block:: console
 
    python -m ehrqc.extract.ExtractData $EHR_QC_DEMO_BASE/2023_11_aicare/data/raw/labs_avg_episode_date.csv eicu_etl_20231121 $EHR_QC_DEMO_BASE/2023_11_aicare/data/sql/extract/avg.sql
 
-#. Coverage Analysis
+11. Coverage Analysis
 --------------------
 
 .. code-block:: console
 
    python -m ehrqc.coverage.Coverage $EHR_QC_DEMO_BASE/2023_11_aicare/data/raw/labs_avg_episode_date.csv 100000 -i "person_id" "visit_occurrence_id"  -d -p 20 -sp $EHR_QC_DEMO_BASE/2023_11_aicare/data/dropped/labs_avg_episode_date.csv
 
-#. Impute Missing Data
+12. Impute Missing Data
 ----------------------
 
 .. code-block:: console
 
    python -m ehrqc.impute.Impute -ac 'impute' $EHR_QC_DEMO_BASE/2023_11_aicare/data/dropped/labs_avg_episode_date.csv -sp $EHR_QC_DEMO_BASE/2023_11_aicare/data/imputed/labs_avg_episode_date.csv -al miss_forest -c 'Sodium level' 'Blood urea nitrogen' 'Creatinine level' 'Potassium level' 'Chloride' 'Hematocrit' 'Haemoglobin estimation' 'Platelet count' 'Red blood cell count' 'Calcium level' 'MCV - Mean corpuscular volume' 'MCHC - Mean corpuscular haemoglobin concentration' 'Albumin' 'MCH - Mean corpuscular haemoglobin' 'Serum alkaline phosphatase level' 'Aspartate aminotransferase measurement' 'Alanine aminotransferase' 'Total bilirubin level' 'White blood cell count' 'Red blood cell distribution width' 'Total protein measurement' 'Glucose level' 'Bicarbonate level' 'Anion gap' 'Lymph' 'Infectious mononucleosis test'
 
-#. Outlier Analysis
+13. Outlier Analysis
 -------------------
 
 .. code-block:: console
 
    python -m ehrqc.plot.OutlierIsolationForest $EHR_QC_DEMO_BASE/2023_11_aicare/data/imputed/labs_avg_episode_date.csv $EHR_QC_DEMO_BASE/2023_11_aicare/data/cleaned/labs_avg_episode_date.csv clean -c 'Sodium level' 'Blood urea nitrogen' 'Creatinine level' 'Potassium level' 'Chloride' 'Hematocrit' 'Haemoglobin estimation' 'Platelet count' 'Red blood cell count' 'Calcium level' 'MCV - Mean corpuscular volume' 'MCHC - Mean corpuscular haemoglobin concentration' 'Albumin' 'MCH - Mean corpuscular haemoglobin' 'Serum alkaline phosphatase level' 'Aspartate aminotransferase measurement' 'Alanine aminotransferase' 'Total bilirubin level' 'White blood cell count' 'Red blood cell distribution width' 'Total protein measurement' 'Glucose level' 'Bicarbonate level' 'Anion gap' 'Lymph' 'Infectious mononucleosis test'
 
-#. Pre-processing Report
+14. Pre-processing Report
 ------------------------
 
 .. code-block:: console
