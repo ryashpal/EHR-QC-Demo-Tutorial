@@ -35,13 +35,20 @@ Time-table
 2. 23 Nov 2023 11:15 AM to 11:40 AM - Live Demo
 3. 23 Nov 2023 11:40 AM to 11:45 AM - Q&A
 
-Cite
-----
+.. topic:: Cite
 
 ``Ramakrishnaiah, Y. et al. (2023) ‘EHR-QC: A streamlined pipeline for Automated Electronic Health Records standardisation and preprocessing to predict clinical outcomes’, Journal of Biomedical Informatics, 147, p. 104509. doi:10.1016/j.jbi.2023.104509.``
 
-Acknowledgements
-----------------
+.. topic:: Acknowledgements
+
+   .. image:: source/images/monash.png
+      :width: 20 %
+
+   .. image:: source/images/alfred.png
+      :width: 20 %
+
+   .. image:: source/images/superbugai.png
+      :width: 20 %
 
 Contents
 --------
