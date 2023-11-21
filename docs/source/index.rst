@@ -64,6 +64,9 @@ Timetable
    .. image:: images/superbugai.png
       :width: 20 %
 
+   .. image:: images/RMIT_University_Logo.png
+      :width: 20 %
+
 
 Contents
 --------
