@@ -29,7 +29,10 @@ Prerequisite
 #. Access to any EHR data in csv formar
 
 
-.. list-table:: Timetable
+Timetable
+---------
+
+.. list-table:: Schedule
    :widths: 10 25 65
    :header-rows: 1
 
