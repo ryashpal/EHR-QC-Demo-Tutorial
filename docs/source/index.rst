@@ -71,4 +71,4 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   api
+   2023_11_aicare
