@@ -69,6 +69,6 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    2023_11_aicare
