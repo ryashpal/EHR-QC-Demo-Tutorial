@@ -63,7 +63,11 @@ Timetable
    * - Q&A
      - 23 Nov 2023 11:40 AM to 11:45 AM
 
-.. topic:: Cite
+
+If you use this workflow please cite the following journal article
+-------------------------------------------------------------------
+
+.. topic:: Citation
 
    *Yashpal Ramakrishnaiah, Nenad Macesic, Geoffrey I Webb, Anton Y Peleg, Sonika Tyagi (2023) ‘EHR-QC: A streamlined pipeline for Automated Electronic Health Records standardisation and preprocessing to predict clinical outcomes’, Journal of Biomedical Informatics, 147, p. 104509. doi:10.1016/j.jbi.2023.104509.*
 
