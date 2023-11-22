@@ -1,7 +1,5 @@
-EHR-QC Hands-on Tutorial
-========================
-
-**Using EHR-QC to preprocess electronic medical records for data modelling**
+Using EHR-QC to preprocess electronic medical records for data modelling
+========================================================================
 
 This tutorial was presented at the AI+Care conference 2023.
 
