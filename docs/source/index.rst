@@ -92,4 +92,4 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   2023_11_aicare
+   handson_tutorial
