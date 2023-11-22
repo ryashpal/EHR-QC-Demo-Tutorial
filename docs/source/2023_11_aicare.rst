@@ -3,6 +3,11 @@
 
 This tutorial contains the commands for standardising and pre-processing electronic health record (EHR) data using EHR-QC.
 
+Pipeline Diagram
+----------------
+
+.. image:: images/ehr_pipeline.png
+
 01. Environment set-up for Standardisation
 -----------------------------------------
 
