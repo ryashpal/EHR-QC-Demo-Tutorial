@@ -51,7 +51,7 @@ Timetable
 ---------
 
 .. list-table:: Schedule
-   :widths: 10 25 65
+   :widths: 25 75
    :header-rows: 1
 
    * - Activity
