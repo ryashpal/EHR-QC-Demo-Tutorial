@@ -187,9 +187,9 @@ Pre-processing Report
 
 .. code-block:: console
 
-import os
-
-
+   import os
+   
+   
    os.system(
        'cd ' + os.environ['EHR_QC_PREPROCESS_BASE'] + ';'
        +
