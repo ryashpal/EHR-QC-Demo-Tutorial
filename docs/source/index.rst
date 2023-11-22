@@ -28,7 +28,7 @@ Learning Objectives
 #. Identifying challenges in applying EHR in a research setting
 #. Exploring medical records using EHR-QC modules
 #. Transforming raw medical records to standard data models or schemas
-#. Performing medical concept mapping using r standard vocabulary of choice
+#. Performing medical concept mapping using a standard vocabulary of choice
 #. Exploring various options to clean and pre-process data to make it machine-learning-ready
 
 
