@@ -1,4 +1,4 @@
-2023 AI.Care
+EHR-QC Hands-on Tutorial
 ============
 
 This tutorial contains the commands for standardising and pre-processing electronic health record (EHR) data using EHR-QC.
