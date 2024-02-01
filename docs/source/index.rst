@@ -1,8 +1,10 @@
 Using EHR-QC to preprocess electronic medical records for data modelling
 ========================================================================
 
-This tutorial is presented at the AI+Care conference 2023.
+This tutorial is presented at the;
 
+* AI+Care conference 2023
+* Health Informatics and Knowledge Management (HIKM'24)
 
 Overview
 --------
@@ -47,10 +49,10 @@ Tool dependencies
 #. Access to any EHR data in csv format
 
 
-Timetable
----------
+Timetables
+----------
 
-.. list-table:: Schedule
+.. list-table:: AI+Care conference 2023
    :widths: 25 75
    :header-rows: 1
 
@@ -62,6 +64,20 @@ Timetable
      - 23 Nov 2023 11:15 AM to 11:40 AM
    * - Q&A
      - 23 Nov 2023 11:40 AM to 11:45 AM
+
+
+.. list-table:: Health Informatics and Knowledge Management (HIKM'24)
+   :widths: 25 75
+   :header-rows: 1
+
+   * - Activity
+     - Timings
+   * - Introduction
+     - 01 Feb 2024 03:00 PM to 03:15 PM
+   * - Live Demo
+     - 01 Feb 2024 03:15 PM to 03:50 PM
+   * - Q&A
+     - 01 Feb 2023 03:50 AM to 04:00 PM
 
 
 If you use this workflow please cite the following journal article
