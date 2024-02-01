@@ -73,11 +73,11 @@ Timetables
    * - Activity
      - Timings
    * - Introduction
-     - 01 Feb 2024 03:00 PM to 03:15 PM
+     - 01 Feb 2024 03:30 PM to 03:45 PM
    * - Live Demo
-     - 01 Feb 2024 03:15 PM to 03:50 PM
+     - 01 Feb 2024 03:45 PM to 04:20 PM
    * - Q&A
-     - 01 Feb 2023 03:50 AM to 04:00 PM
+     - 01 Feb 2023 04:20 AM to 04:30 PM
 
 
 If you use this workflow please cite the following journal article
